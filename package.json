@@ -1,0 +1,29 @@
+{
+  "name": "soap-server-demo",
+  "version": "1.0.0",
+  "description": "A minmal Soap server demo.",
+  "main": "server.js",
+  "scripts": {
+    "pretest": "jshint ."
+  },
+  "dependencies": {
+    "node-uuid": "^1.4.7",
+    "soap": "^0.13.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/strongloop/strong-gateway-demo"
+  },
+  "author": "Sanjay Shah <sanjay_y2k@yahoo.com> (http://github.com/sanjay-shah)",
+  "license": {
+    "name": "Sanjay Shah",
+    "url": "https://example.com/blob/master/LICENSE"
+  },
+  "bugs": {
+    "url": "https://github.com/sanjay-shah/soap-server-demo/issues"
+  },
+  "homepage": "https://github.com/sanjay-shah/soap-server-demo/tree/master/soap-server-demo"
+}
