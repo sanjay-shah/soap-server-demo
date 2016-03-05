@@ -1,6 +1,6 @@
 # Soap server demo
 
-### A minimal node.js demo soap server
+### A minimal node.js soap server demo
 
 `git clone https://github.com/sanjay-shah/soap-server-demo.git`
 
