@@ -6,12 +6,8 @@ var flightlyService = {
       Flightly: {
           FlightlySoap: {
               buyTicket: function(args, cb, headers, req) {
-                  console.log('SOAP `Purchaseflight` request from ' + req.connection.remoteAddress);
-                  console.log('args[0]: ' + args.Destination);
+                  console.log('SOAP `buyTicket` request from ' + req.connection.remoteAddress);
                   return uuid.v4();
-                  //return {
-                  //    tx_id: 78687687687687686
-                  //};
               },
               traveldocuments: function(args, cb, headers, req) {
                   console.log('SOAP `traveldocuments` request from ' + req.connection.remoteAddress);
